@@ -1,0 +1,9 @@
+function x = ekstrem(r, a, b ,N)
+
+tocke = linspace(a,b,N+1);
+vrednosti = r(tocke);
+najvecja = max(abs(vrednosti));
+x = find(tocke(vrednosti)==najvecja);
+% tocke((abs(r(x)) - najvecja) == 0);
+% 
+end

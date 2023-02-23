@@ -1,0 +1,6 @@
+function p = remes(f, tocke)
+
+n = length(E)-2
+vrednosti_funkcij = []
+A = []
+for i=0:
